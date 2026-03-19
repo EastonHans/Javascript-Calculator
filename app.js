@@ -1,4 +1,4 @@
-// Simple calculator with operation history (browser version)
+// Simple calculator with operation history 
 
 const history = [];
 
