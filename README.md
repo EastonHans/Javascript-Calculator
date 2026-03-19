@@ -9,13 +9,27 @@ A small JavaScript program that performs basic arithmetic operations (add, subtr
 - **History display**: print the full history or show a message when it's empty
 - **Demo mode**: run the script directly to see sample operations and the history output
 
-## ▶️ Run the demo
+## ▶️ Run the demo (Node)
 
 From the project directory:
 
 ```bash
 node calculator.js
 ```
+
+## 🌐 Run the web UI
+
+Open `index.html` in your browser (double-click or use an HTTP server). The UI lets you:
+- Perform operations with two numbers
+- View a running history of all calculations
+- Clear the history at any time
+
+```bash
+# Optional: run a simple local server (recommended)
+python -m http.server 8000
+```
+
+Then visit: `http://localhost:8000`
 
 ## 📦 Use in another module
 
